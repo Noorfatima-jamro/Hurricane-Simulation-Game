@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark gray text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Game container */
+#game-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 2px solid #1e90ff; /* Dodger blue border */
+    border-radius: 10px;
+    background-color: #fff; /* White background for game container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 20px;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #1e90ff; /* Dodger blue */
+}
+
+/* Canvas styling */
+#game-canvas {
+    border: 1px solid #333; /* Dark border for the canvas */
+    width: 100%;
+    height: 400px; /* Fixed height for the game canvas */
+}
+
+/* Info panel */
+#info-panel {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #1e90ff; /* Border for the info panel */
+    border-radius: 8px;
+    background-color: #f8f8ff; /* Light background for info panel */
+}
+
+/* Decision panel */
+#decision-panel {
+    display: flex;
+    justify-content: space-around; /* Space buttons evenly */
+    margin-top: 10px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e90ff; /* Dodger blue */
+    color: white; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+button:hover {
+    background-color: #104e8b; /* Darker blue on hover */
+}
+
+/* Score display */
+#score-display {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1e90ff; /* Color for score display */
+}
