@@ -25,3 +25,4 @@ The Hurricane Simulation Game is an interactive game that puts players in the ro
 Clone the repository:
 ```bash
 git clone https://github.com/<username>/hurricane-simulation-game.git
+https://github.com/Noorfatima-jamro/Hurricane-Simulation-Game.git
